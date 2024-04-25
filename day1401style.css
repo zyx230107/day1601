@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;}
+.header{
+	height:50px;
+	width:100%;
+	background:#CF4646;}
+.header .hdtext{
+	width:1100px;
+	height:50px;
+	margin:0px auto;}
+.header .logo{
+	float:left;
+	font-size:18px;
+	line-height:50px;}
+.header .nav{
+	float:right;}
+.header a{
+	color:#CCCCCC;}
+.header a:hover{
+	color:#FFFFFF;}
+.header .nav li{
+	float: left;
+	}
+.header .nav a{
+	font-size:14px;
+	line-height:50px;
+	display:block;
+	padding:0 15px;}
+	
+.banner{
+	height:380px;
+	width:100%;
+	background:rgb(207,70,70);
+	text-align:center;}
+.banner .logo{
+	margin-top:50px;}
+.banner p{
+	font-size:22px;
+	color:#ffffff;
+	margin:10px auto 40px;}
+.banner .btm{
+	font-size:18px;
+	color:#EEEEEE;
+	border:1px #EEEEEE solid;
+	padding:10px 15px;}
+.banner .btm:hover{
+	color:#FFF;
+	border-color:#FFFFFF;}
+.main{
+	height:210px;
+	width:1100px;
+
+	margin:60px auto;}
+.main p{
+	margin-top:10px;}
+.main .box1{
+	float:left;
+	padding:0px 10px;
+	margin-top:30px;
+	width:450px;}
+.main .box2{
+	float:right;
+	padding:0px 10px;
+	margin-top:30px;
+	width:450px;}
+.main .box3{
+	float:left;
+	padding:0px 10px;
+	margin-top:30px;
+	width:450px;}
+.main .box4{
+	float:right;
+	padding:0px 10px;
+	margin-top:30px;
+	width:450px;}	
+
+.footer{
+	width:100%;
+	height:80px;
+	background:#CCCCCC;}
+.footer{
+	text-align:center;
+	color:#999;}	
+ul{
+	list-style-type:none;}
+a{
+	text-decoration:none;}
+body{
+	font-family: "微软雅黑 Light";}
